@@ -1,0 +1,300 @@
+html{
+    scroll-behavior : smooth;
+}
+body{
+    font-family:"Times New Roman",Sans-Serif;
+    margin: 0;
+background-image: url("img/technology.JPG");
+    background-size: cover;
+}
+.aside-bar{
+    background-image: url("img/aside back.jpg");
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 25px;
+    position: sticky;
+    float: left;
+    margin-bottom: 0;
+    width: 300px;
+    text-align: center;
+    top:0;
+    left: 0;
+    height: 200%;
+    box-shadow: 0 0 15px black;
+}
+.aside-bar img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+}
+.aside-bar li{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    font-family: "Comic Sans MS";
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+}
+.aside-bar a{
+    color: red;
+    text-decoration: none;
+    display: block;
+    background-color:rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 25px;
+}
+.aside-bar a:hover{
+
+    box-shadow: rgb(103,125,138);
+    color: #677d8a;
+}
+.aside-bar img:hover{
+    cursor: pointer;
+}
+.gallery-zoom{
+     width: 300px;
+     height: 200px;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+/*-------main hedding-----*/
+#main-heading{
+margin:0 0 0 300px;
+
+}
+.name-article{
+    padding: 20px;
+    background-image: url("img/main back.jpg");
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0  15px red;
+}
+
+.fname{
+    color: #cfdfeb;
+}
+.mname{
+    color: #1facdb;
+}
+.lname{
+    color: #cfdfeb;
+}
+.flash-news{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: 300px;
+    animation: news 5s infinite linear;
+    overflow: hidden; /* mandatory */
+}
+@keyframes news {
+    0%,50%,100%{background-color: #121932}
+    25%,75%{background-color: #434c50}
+}
+.flash-news p{
+    margin: 0;
+    font-size: 20px;
+    animation: para 20s infinite linear;
+}
+@keyframes para {
+    0%{transform: translate(100%)}
+    100%{transform: translate(-80%)}
+}
+/*---career--*/
+#main-career{
+    padding: 15px;
+    margin: 100px 0 200px 300px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px white;
+}
+.career-article{
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+font-size: 25px;
+    margin: 0;
+    padding: 15px;
+}
+.para-career{
+    color:white;
+    text-align: justify;
+}
+/*----------Educational Qualification----------*/
+#education{
+    padding: 15px;
+    margin: 0 0 20px 300px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.table-main{
+    margin: auto;
+    font-family: 'Sedgwick Ave', cursive;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px red;
+}
+.table-main , tr , td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+/*------skills----*/
+#skills{
+    margin:100px 0 0 300px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+}
+.skill-artical{
+color: white;
+    box-shadow: 0 0 25px white;
+    font-family: 'Lobster', cursive;
+    background-color: rgba(227,36,111,0.5);
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px;
+
+}
+.skill-1{
+    color: #c764c5;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+.skill-2{
+    color: red;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+.skill-3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+.skill-artical:hover{
+    background-color: #321614;
+}
+/*--activities--*/
+#activities{
+    padding: 15px;
+    margin: 300px 0 100px 300px;
+    font-family: 'Lobster', cursive;
+   color: white;
+    box-shadow: 0 0 25px #f3f0f7;
+        text-align: center;
+    border-radius: 25px;
+transition: all 2s;
+}
+.art-activities{
+    border:5px solid #f29028;
+    margin-top: 50px;
+border-radius: 25px;
+}
+#activities:hover{
+    background-color: rgba(139,43,47,0.5);
+    box-shadow: 0 0 25px yellow;
+    border: 5px solid white;
+    cursor: pointer;
+    transform: translateY(50px);
+}
+
+#activities p{
+    color: #c764c5;
+    font-size: 25px;
+    text-align: justify;
+    margin: 0;
+    padding: 15px;
+}
+/*-- strength---*/
+
+#Strengths{
+    margin: 300px 0 100px 300px;
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    padding: 15px;
+
+}
+.art-strength{
+    color: #c15bc5;
+    border: 2px solid #e451a2;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave', cursive;
+    box-shadow: 0 0 15px red;
+    border-radius: 25px;
+    transition: all 1s;
+
+}
+.art-strength:hover{
+    cursor: pointer;
+    animation: alternate;
+    background-color: rgba(139,43,47,0.5);
+    box-shadow: 0 0 25px yellow;
+    border: 10px solid white;
+    transform: translateY(150px);
+}
+/*--- personal details----*/
+#details{
+    margin: 200px 0 0 300px;
+    color: #c764c5;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    padding: 15px;
+    text-align: center;
+}
+.details-table{
+    color: white;
+    border-collapse: collapse;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.details-table tr td{
+    border: 2px solid white;
+    box-shadow: 0 0  15px blue;
+    border-collapse: collapse;
+}
+/*-------footer----*/
+#main-footer{
+    margin:100px 0 0 300px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+#main-footer h3{
+    color: #d49931;
+    font-size: 25px;
+    text-shadow: 0 0  25px white;
+}
+.date{
+    float: left;
+    font-size:20px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.sign{
+    float: right;
+    font-size:20px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.bottom{
+
+    margin: 200px 0 0 300px;
+    float: bottom;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #c764c5;
+}
